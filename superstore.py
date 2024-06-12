@@ -35,7 +35,7 @@ elif hypothesis=="The Central region has the highest sales compared to other reg
     ax.set_xlabel('Region')
     ax.set_ylabel('Total profit')
     ax.tick_params(axis='x', rotation=75) 
-    st.pyplot(fig)
+    st.pyplot(fig) 
 
 elif hypothesis=="Sales are higher during certain months of the year.":
     
