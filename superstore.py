@@ -13,6 +13,8 @@ hypothesis = st.sidebar.radio("Select a hypothesis:", [
     "Orders with same-day shipping have the lowest rate of returned products.",
     "The company's profit is more on weekdays than on weekends."])
 
+
+
 st.title("Superstore Sales Dashboard")
 if hypothesis == "Technology products have the highest profit margin compared to other product categories.":
 
